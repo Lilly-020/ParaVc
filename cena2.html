@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <Style>
+        * {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        #bgTexto {
+            background-color: #FFD6DE;
+            font-size: 20px;
+            font-family: 'Montserrat', sans-serif;
+            border: 4px solid #FFC6CE;
+            border-radius: 5px;
+            height: 100px;
+            width: 300px;
+            padding: 10px;
+            color: white;
+            font-weight: 600;
+        }
+
+        #btnplay {
+            transition: transform 0.3s ease;
+            /* animação suave */
+        }
+
+        #btnplay:hover {
+            transform: scale(1.2);
+            /* aumenta 20% do tamanho original */
+        }
+        #voltar {
+            text-decoration: none;
+            padding-top: 40px;
+            font-size: 20px;
+            color: #FFA6B8;
+        }
+    </Style>
+</head>
+
+<body>
+    <section>
+        <div>
+            <img src="https://i.gifer.com/y2.gif" alt="Gatinho abanando" width="300" height="300">
+        </div>
+        <div>
+            <p id="bgTexto">“Ei, você aí… 😺 Alguém quer que saiba que te ama muito 💕”</p>
+        </div>
+        <div>
+            <div id="btnplay" style="background-color: #FFD6DE;border-radius: 100%; padding: 10px;">
+
+                <a href="cena3.html"><img src="../imgs/Play.svg" alt="Botão do play"></a>
+                
+            </div>
+            <a id="voltar" href="/templates/Index.html">Pag <</a>
+        </div>
+    </section>
+</body>
+
+</html>
